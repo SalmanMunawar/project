@@ -1,0 +1,31 @@
+* {
+    margin: 0;  padding: 0;
+}
+body {
+    width: 640px;
+    margin: auto;
+    font-size: 16px;
+}
+div#accordion h1 {
+    background: #bbb;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 4px;
+}
+div#accordion h1:hover {
+    background: #444;
+    color: #fff;
+}
+div#accordion h1.active {
+    background: #222;
+    color: #fff;
+}
+div#accordion p {
+    padding: 4px;
+}
+div#accordion h1 + div {
+    background: #ccc;
+}
+div#accordion div + div{
+    background: #ddd;
+}
